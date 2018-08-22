@@ -21,6 +21,9 @@ public class PantallaPrincipal extends AppCompatActivity {
     private EditText inputFecha;
     private Button bFecha;
 
+
+
+
     private static final int ID_DIALOGO = 0;
     private static DatePickerDialog.OnDateSetListener recibeFecha;
 
