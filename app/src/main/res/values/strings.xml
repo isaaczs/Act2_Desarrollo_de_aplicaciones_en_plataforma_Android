@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calcula tu CURP</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="consulta_curp">Consulta tu CURP</string>
+    <string name="nombre">Nombre: </string>
+    <string name="primer_apellido">Primer apellido: </string>
+    <string name="segundo_apellido">Segundo apellido: </string>
+    <string name="ingresa_apellidos">Ingresa tus apellidos: </string>
+    <string name="genero">Genero: </string>
+    <string name="lugar_nacimiento">Lugar de nacimiento</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="estado">Estado</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="ingresa">Ingresa los datos que se solicitan:</string>
+    <string name="bFecha">Fecha</string>
+</resources>
