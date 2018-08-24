@@ -6,9 +6,14 @@ import android.support.v4.app.DialogFragment;
 import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Spinner;
+import android.widget.AdapterView;
+
 
 import java.util.Calendar;
 
@@ -53,6 +58,17 @@ public class PantallaPrincipal extends AppCompatActivity {
                 mostrarFecha();
             }
         };
+
+            // AGREGANDO UN SPINNER QUE MANDA A LLAMAR EL ARREGLO CON TODOS LOS ESTADOS
+
+        Spinner spinnerEstado;
+
+        setContentView(R.layout.activity_home);
+
+        spinnerEstado = (Spinner)findViewById(R.id.spEstado);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.lista_estados, android.R.layout.simple_spinner_item);
+        spinnerEstado.setAdapter(adapter);
     }
 
     @Override
@@ -71,4 +87,5 @@ public class PantallaPrincipal extends AppCompatActivity {
     public void mostrarFecha(){
         inputFecha.setText(dia+"/"+mes+"/"+año);
     }
+
 }
