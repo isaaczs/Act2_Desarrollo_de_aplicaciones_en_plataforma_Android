@@ -18,7 +18,7 @@ import android.widget.AdapterView;
 import java.util.Calendar;
 
 
-public class PantallaPrincipal extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private int año;
     private int mes;
